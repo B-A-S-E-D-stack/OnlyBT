@@ -1,27 +1,29 @@
-import './App.css';
-import axios from 'axios';
+import "./App.css";
 import { NavLink } from "react-router-dom";
-import Footer from './Footer';
+import Footer from "./Footer";
 
-document.body.style = 'background: #092c4b;';
-
-
+document.body.style = "background: #092c4b;";
 
 const App = () => {
   return (
     <>
-    <div className="App">
+      <div className="App">
         <h3>OnlyBT</h3>
         <h5>Where everyone wants to post their bt edits</h5>
-    </div>
-    <div className="link">
-    <NavLink to="/about">
-      About
-      </NavLink>
+
+        <form>
+          <label>
+            Title:
+            <input type="text" title="title" />
+          </label>
+        </form>
       </div>
-    <Footer />
+      <div className="link">
+        <NavLink to="/about">About</NavLink>
+      </div>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
 export default App;
