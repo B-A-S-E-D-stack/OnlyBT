@@ -24,22 +24,9 @@ export const typeDefs = gql`
   }
 `;
 
-const allPosts = [
-  {
-    id: "214234",
-    title: "Look at my cool bt edit",
-    postnumber: 1,
-  },
-  {
-    id: "1231231231",
-    title: "pob",
-    postnumber: 2,
-  },
-];
-
 const resolvers = {
   Query: {
-    allPosts: () => allPosts,
+    allPosts: () => prisma.post.findMany(),
   },
 };
 const server = new ApolloServer({ typeDefs, resolvers });
