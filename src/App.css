@@ -5,6 +5,25 @@
   font-family: "Comfortaa", cursive;
 }
 
+p {
+  text-align: center;
+  color: #d8e0e4;
+  font-family: "Comfortaa", cursive;
+}
+
+a {
+  color: #ff71ce;
+  font-family: "Comfortaa", cursive;
+}
+
+.link {
+  text-align: left;
+  position: absolute;
+  bottom: 960px;
+  color: #ff71ce;
+  font-family: "Comfortaa", cursive;
+}
+
 .Footer {
   position: absolute;
   bottom: 0;
