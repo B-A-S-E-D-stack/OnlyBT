@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+
+div {
+  font-family: "Comfortaa", cursive;
+}
+
 .App {
   text-align: center;
   color: #d8e0e4;
@@ -31,6 +36,12 @@ a {
   background-color: #021424;
   font-family: "Comfortaa", cursive;
   color: white;
-  width: 1920px;
+  width: auto;
   height: 50px;
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }

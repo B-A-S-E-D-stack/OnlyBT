@@ -10,13 +10,6 @@ const App = () => {
       <div className="App">
         <h3>OnlyBT</h3>
         <h5>Where everyone wants to post their bt edits</h5>
-
-        <form>
-          <label>
-            Title:
-            <input type="text" title="title" />
-          </label>
-        </form>
       </div>
       <div className="link">
         <NavLink to="/about">About</NavLink>

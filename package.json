@@ -20,7 +20,7 @@
   "scripts": {
     "server": "node ./src/api/server.js",
     "start-client": "react-scripts --openssl-legacy-provider start",
-    "start": "yarn run build && yarn start-client",
+    "start": "yarn run build && (yarn start-client && yarn server)",
     "build": "react-scripts --openssl-legacy-provider build",
     "deploy": "npm run build && gh-pages -d dist",
     "test": "react-scripts test",
