@@ -21,3 +21,7 @@ experimental/**/*.db
 .nuxt
 dev.db
 *.env*
+
+./build/*
+/build/
+./build
