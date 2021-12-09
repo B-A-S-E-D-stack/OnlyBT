@@ -4,10 +4,11 @@ build the project yourself:
 
 <hr />
 
-##### cd into it
-
 ```
+clone it:
+$ git clone https://github.com/B-A-S-E-D-stack/OnlyBT.git
 run:
+$ cd OnlyBT
 $  npm install
 
 after you have installed the dependincies run:
