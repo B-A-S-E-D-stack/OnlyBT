@@ -1,3 +1,0 @@
-# Btpog
-
-Yes
